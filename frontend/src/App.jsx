@@ -1,9 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-/**
- * Ajuste aqui a porta do seu backend
- * Ex: 8081 (como nos seus prints)
- */
 const API_BASE = "http://localhost:8081";
 const API_URL = import.meta.env.VITE_API_URL;
 console.log("VITE_API_URL =", import.meta.env.VITE_API_URL);
